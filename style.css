@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Ubuntu:wght@300&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+body {
+  background-color: rgba(192, 219, 225, 0.285);
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+.container {
+  display: flex;
+}
+.one{
+  flex: 1 1 75px;
+}
+.two {
+  flex: 2 0 75px;
+}
+.card-white {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: whitesmoke;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+@media (min-width: 960px){
+  .card-size {
+    width: 700px;
+    margin: 24px auto;
+    padding: 20px;
+  }
+}
+@media (max-width: 960px){
+  .card-size {
+    width: 350px;
+    margin: 10px auto;
+    padding: 5px;
+  }
+}
+.img-circle:hover {
+  flex-grow: 1;
+  opacity: 50%;
+  border-radius: 25%;
+  border: 5px solid burlywood;
+  border-bottom: rgb(222, 83, 7) 2px solid;
+  transition: 800ms;
+}
+.btn-blue:hover {
+  background-color: #5C67E1;
+  color: white;
+  border-radius: 5px;
+  padding: 16px 24px;
+  border: 1px solid transparent;
+}
+.btn-blue:hover {
+  border: 1px solid #5C67E1;
+  color: #5C67E1;
+  background-color: white;
+  border-bottom: rgb(222, 83, 7) 2px solid;
+  transition-duration: 800ms;
+}
+#back_img {
+  background-image: url(images/back_image.jpg);
+  background-size: cover;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  flex-grow: 1;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+  transition: 800ms;
+}
+.text-center {
+  text-align: center;
+}
+.text-banner {
+  font-family: 'Titan One', cursive;
+  color:rgb(12, 15, 21)
+}
+#intro p {
+  margin-bottom: 40px;
+  position: relative;
+}
+#footer a {
+  font-size: 32px;
+}
+.emoji {
+  background-image: url(images/ghost.png);
+  float: right;
+  margin-left: 20px;
+}
+.shadowed {
+  box-shadow: 5px 5px 8px black;
+  border: 5px solid transparent;
+  border-bottom: transparent 2px solid;
+  border-radius: 25%;
+}
+#logo {
+  width: 100px;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 24px;
+  color: dodgerblue;
+}
+a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+}
+a:hover {
+  color: rgb(208, 111, 14);
+  transition: 800ms;
+}
